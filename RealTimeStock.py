@@ -4,7 +4,7 @@ from alpha_vantage.timeseries import TimeSeries
 import time
 
 #Only works with US stocks at the moment
-api_key = 'VSKPIUDFJEEYHJTM'
+api_key = 'ENTER YOUR API KEY HERE' # To get a key go here - https://www.alphavantage.co
 
 def get_price():
     print('Enter the stocks ticker')
